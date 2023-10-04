@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notion to Markdown Converter</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Notion to Markdown Converter</h1>
+      <form id="convertForm">
+        <label for="notionUrl">Enter Notion Page URL:</label>
+        <input
+          type="text"
+          id="notionUrl"
+          placeholder="https://www.notion.so/yourpageURL"
+          required />
+        <button type="submit">Convert</button>
+      </form>
+      <div class="markdown-content">
+        <h2>Converted Markdown Content:</h2>
+        <textarea id="markdownOutput" readonly></textarea>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
