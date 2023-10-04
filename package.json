@@ -1,0 +1,24 @@
+{
+  "name": "note2md",
+  "version": "1.0.0",
+  "description": "notion converter to markdown",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/adebayo-moses/note2md.git"
+  },
+  "author": "mosessmax",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adebayo-moses/note2md/issues"
+  },
+  "homepage": "https://github.com/adebayo-moses/note2md#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "notion-api-worker": "^0.1.0",
+    "turndown": "^7.1.2"
+  }
+}
