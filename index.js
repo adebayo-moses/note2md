@@ -8,7 +8,6 @@ const port = process.env.PORT || 3000;
 
 // Notion integration token goes here
 // const integrationToken = "YOUR_INTEGRATION_TOKEN";
-const integrationToken = "secret_XEeFvWeNFooVMB2iC3MrRjmCanEUXeALbVQqa3iSIfT";
 
 app.use(express.urlencoded({ extended: true }));
 
